@@ -93,7 +93,6 @@
     damageOverlay:
       sprite: Structures/Windows/cracks.rsi
   - type: Injurable
-    damageContainer: StructuralInorganic
   - type: StaticPrice
     price: 100
   - type: BlockWeather
