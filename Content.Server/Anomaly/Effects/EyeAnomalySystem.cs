@@ -33,7 +33,6 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;
 using System.Linq;
-using Content.Server.Mobs;
 
 namespace Content.Server.Anomaly.Effects;
 
@@ -72,7 +71,6 @@ public sealed partial class EyeAnomalySystem : EntitySystem
     [Dependency] private NPCSystem _npcSystem = default!;
     [Dependency] private NpcFactionSystem _npcFaction = default!;
     [Dependency] private PersistentIdentifierSystem _pid = default!;
-    [Dependency] private CritMobActionsSystem _critMobActions = default!;
 
     private readonly HashSet<Entity<MobStateComponent>> _pulseTargets = new();
     private readonly HashSet<EntityUid> _returning = new();
@@ -104,7 +102,7 @@ public sealed partial class EyeAnomalySystem : EntitySystem
         if (!_pid.TryResolveId(ent.Comp.OriginalBody, out var body))
             return;
 
-        // args.SpeakerOverride = body.Owner;
+        args.SpeakerOverride = body.Owner;
 
         if (_pid.TryResolveId(ent.Comp.Eye, out var eye) && TryComp<EyeAnomalyComponent>(eye.Owner, out var eyeComp))
         {
@@ -469,10 +467,9 @@ public sealed partial class EyeAnomalySystem : EntitySystem
         var template = hadMindShield ? ent.Comp.SosMessageMindShielded : ent.Comp.SosMessageUnshielded;
 
         var mapPos = _transform.GetWorldPosition(victim);
-        var xform = Transform(victim);
         var message = string.Format(template, Name(victim), mapPos.X, mapPos.Y);
 
-        _radio.SendRadioMessage(_critMobActions.EnsureDeathNetworkSpeaker(xform.Coordinates), message, ProtoMan.Index(ent.Comp.BroadcastChannel), victim, true);
+        _radio.SendRadioMessage(victim, message, ProtoMan.Index(ent.Comp.BroadcastChannel), victim, true);
 
         actions.SOSCooldown = _timing.CurTime + TimeSpan.FromSeconds(_configurationManager.GetCVar(CCVars.AcceptDeathTime));
     }
