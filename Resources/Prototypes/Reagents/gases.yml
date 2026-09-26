@@ -16,7 +16,7 @@
       - !type:Oxygenate
         conditions:
         - !type:MetabolizerTypeCondition
-          type: [ Human, Animal, Rat, Plant, Goblin, Avali ]
+          type: [ Human, Animal, Rat, Plant, Goblin, Avali, Yinglet ]
       # Convert Oxygen into CO2.
       - !type:ModifyLungGas
         conditions:
@@ -47,7 +47,7 @@
       - !type:Oxygenate
         conditions:
         - !type:MetabolizerTypeCondition
-          type: [ Human, Animal, Rat, Plant, Arachnid, Moth, Goblin, Avali] # Persistance14 - Add Avali
+          type: [ Human, Animal, Rat, Plant, Arachnid, Moth, Goblin, Avali, Yinglet] # Persistance14 - Add Avali, Scav - Add Yinglet
       # Convert Oxygen into CO2.
       - !type:ModifyLungGas
         conditions:

@@ -20,6 +20,7 @@
     - Reptilian
     - Vulpkanin
     - Avali
+    - Yinglet
 
 - type: loadoutEffectGroup # Persistance14 Edit
   id: EffectSpeciesAvali
