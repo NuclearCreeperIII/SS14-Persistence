@@ -1,0 +1,65 @@
+- type: marking
+  id: NeoAvian Beak
+  bodyPart: Snout
+  groupWhitelist: [NeoAvian]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#7E7E7E"
+  sprites:
+  - sprite: _Scav/Mobs/Customization/NeoAvian/beak.rsi
+    state: long
+
+- type: marking
+  id: NeoAvian Tail
+  bodyPart: Tail
+  groupWhitelist: [NeoAvian]
+  forcedColoring: true
+  sprites:
+  - sprite: _Scav/Mobs/Customization/NeoAvian/tail.rsi
+    state: tail
+
+- type: marking
+  id: NeoAvianLWing
+  bodyPart: HandLOverlay
+  groupWhitelist: [NeoAvian]
+  forcedColoring: true
+  sprites:
+  - sprite: _Scav/Mobs/Customization/NeoAvian/wings.rsi
+    state: r_wing
+
+- type: marking
+  id: NeoAvianRWing
+  bodyPart: HandLOverlay
+  groupWhitelist: [NeoAvian]
+  forcedColoring: true
+  sprites:
+  - sprite: _Scav/Mobs/Customization/NeoAvian/wings.rsi
+    state: l_wing
+
+- type: marking
+  id: NeoAvianRFoot
+  bodyPart: RFoot
+  groupWhitelist: [NeoAvian]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#7E7E7E"
+  sprites:
+  - sprite: _Scav/Mobs/Customization/NeoAvian/limbs.rsi
+    state: r_foot
+
+- type: marking
+  id: NeoAvianLFoot
+  bodyPart: LFoot
+  groupWhitelist: [NeoAvian]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#7E7E7E"
+  sprites:
+  - sprite: _Scav/Mobs/Customization/NeoAvian/limbs.rsi
+    state: l_foot
