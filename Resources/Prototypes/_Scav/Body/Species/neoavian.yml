@@ -156,27 +156,56 @@
           32:
             sprite: _Scav/Mobs/Species/NeoAvian/displacement.rsi
             state: jumpsuit
+      outerClothing:
+        sizeMaps:
+          32:
+            sprite: _Scav/Mobs/Species/NeoAvian/displacement.rsi
+            state: outerClothing
+      eyes:
+        sizeMaps:
+          32:
+            sprite: _Scav/Mobs/Species/NeoAvian/displacement.rsi
+            state: eyes
+      neck:
+        sizeMaps:
+          32:
+            sprite: _Scav/Mobs/Species/NeoAvian/displacement.rsi
+            state: neck
+      mask:
+        sizeMaps:
+          32:
+            sprite: _Scav/Mobs/Species/NeoAvian/displacement.rsi
+            state: mask
+      gloves:
+        sizeMaps:
+          32:
+            sprite: _Scav/Mobs/Species/NeoAvian/displacement.rsi
+            state: hand
       back:
         sizeMaps:
           32:
             sprite: _Scav/Mobs/Species/NeoAvian/displacement.rsi
             state: back
+      ears:
+        sizeMaps:
+          32:
+            sprite: _Scav/Mobs/Species/NeoAvian/displacement.rsi
+            state: ears
+      shoes:
+        sizeMaps:
+          32:
+            sprite: _Scav/Mobs/Species/NeoAvian/displacement.rsi
+            state: shoes
+      head:
+        sizeMaps:
+          32:
+            sprite: _Scav/Mobs/Species/NeoAvian/displacement.rsi
+            state: head
       belt:
         sizeMaps:
           32:
             sprite: _Scav/Mobs/Species/NeoAvian/displacement.rsi
             state: belt
-  - type: Hands
-    leftHandDisplacement:
-      sizeMaps:
-          32:
-            sprite: _Scav/Mobs/Species/NeoAvian/displacement.rsi
-            state: hand_l
-    rightHandDisplacement:
-      sizeMaps:
-          32:
-            sprite: _Scav/Mobs/Species/NeoAvian/displacement.rsi
-            state: hand_r
   - type: HumanoidProfile
     species: NeoAvian
 

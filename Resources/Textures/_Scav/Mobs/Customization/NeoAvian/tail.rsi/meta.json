@@ -12,11 +12,11 @@
       "directions": 4
     },
     {
-      "name": "tail_long",
+      "name": "long",
       "directions": 4
     },
     {
-      "name": "tail_long_tip",
+      "name": "long_tip",
       "directions": 4
     }
   ]

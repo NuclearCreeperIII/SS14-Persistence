@@ -12,19 +12,40 @@
     state: beak
 
 - type: marking
+  id: NeoAvianBeakThin
+  bodyPart: Snout
+  groupWhitelist: [NeoAvian]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#7E7E7E"
+  sprites:
+  - sprite: _Scav/Mobs/Customization/NeoAvian/beak.rsi
+    state: thin
+
+- type: marking
   id: NeoAvianTail
   bodyPart: Tail
   groupWhitelist: [NeoAvian]
-  forcedColoring: true
   sprites:
   - sprite: _Scav/Mobs/Customization/NeoAvian/tail.rsi
     state: tail
 
 - type: marking
+  id: NeoAvianTailLong
+  bodyPart: Tail
+  groupWhitelist: [NeoAvian]
+  sprites:
+  - sprite: _Scav/Mobs/Customization/NeoAvian/tail.rsi
+    state: long
+  - sprite: _Scav/Mobs/Customization/NeoAvian/tail.rsi
+    state: long_tip
+
+- type: marking
   id: NeoAvianLWing
   bodyPart: LHandOverlay
   groupWhitelist: [NeoAvian]
-  forcedColoring: true
   sprites:
   - sprite: _Scav/Mobs/Customization/NeoAvian/wings.rsi
     state: l_wing
@@ -33,7 +54,6 @@
   id: NeoAvianRWing
   bodyPart: RHandOverlay
   groupWhitelist: [NeoAvian]
-  forcedColoring: true
   sprites:
   - sprite: _Scav/Mobs/Customization/NeoAvian/wings.rsi
     state: r_wing
