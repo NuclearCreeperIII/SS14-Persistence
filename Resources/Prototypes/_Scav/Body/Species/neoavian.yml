@@ -206,6 +206,17 @@
           32:
             sprite: _Scav/Mobs/Species/NeoAvian/displacement.rsi
             state: belt
+  - type: Hands
+    leftHandDisplacement:
+      sizeMaps:
+          32:
+            sprite: _Scav/Mobs/Species/NeoAvian/displacement.rsi
+            state: hand_l
+    rightHandDisplacement:
+      sizeMaps:
+          32:
+            sprite: _Scav/Mobs/Species/NeoAvian/displacement.rsi
+            state: hand_r
   - type: HumanoidProfile
     species: NeoAvian
 
