@@ -2,14 +2,19 @@
   parent: CrateEngineering
   id: CrateEngineeringShuttleStarterKit
   name: shuttle starter kit crate
-  description: contains 4 thrusters, a gyroscope, a generator, and a shuttle console board!
+  description: contains the components to construct 4 wallmount thrusters, a subfloor gyroscope, a generator, and a shuttle console board, as well as some surplus materials!
   components:
   - type: StorageFill
     contents:
-      - id: ThrusterFlatpack
-      - id: ThrusterFlatpack
-      - id: ThrusterFlatpack
-      - id: ThrusterFlatpack
-      - id: GyroscopeFlatpack
+      - id: ThrusterWallmountCircuitboard
+      - id: ThrusterWallmountCircuitboard
+      - id: ThrusterWallmountCircuitboard
+      - id: ThrusterWallmountCircuitboard
+      - id: GyroscopeFloorMachineCircuitboard
       - id: PortableGeneratorJrPacmanFlatpack
       - id: ShuttleConsoleCircuitboard
+      - id: SheetSteel
+      - id: SheetGlass10
+      - id: CableApcStack
+      - id: MicroManipulatorStockPart
+        amount: 10
