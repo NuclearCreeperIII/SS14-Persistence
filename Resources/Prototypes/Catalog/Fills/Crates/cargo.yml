@@ -271,3 +271,5 @@
           - id: CargoBountyComputerFlatpack
           - id: BookFactionHandbook
           - id: ComputerGridControlFlatpack
+          - id: ComputerInvoicePrinterFlatpack
+          - id: HolopadLongRangeFlatpack
