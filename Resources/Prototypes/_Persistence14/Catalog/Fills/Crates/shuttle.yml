@@ -7,9 +7,7 @@
   - type: StorageFill
     contents:
       - id: ThrusterWallmountCircuitboard
-      - id: ThrusterWallmountCircuitboard
-      - id: ThrusterWallmountCircuitboard
-      - id: ThrusterWallmountCircuitboard
+        amount: 4
       - id: GyroscopeFloorMachineCircuitboard
       - id: PortableGeneratorJrPacmanFlatpack
       - id: ShuttleConsoleCircuitboard
@@ -18,3 +16,6 @@
       - id: CableApcStack
       - id: MicroManipulatorStockPart
         amount: 10
+      - id: Multitool
+      - id: Wrench
+      - id: Screwdriver
