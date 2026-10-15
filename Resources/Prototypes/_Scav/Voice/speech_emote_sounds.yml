@@ -25,6 +25,8 @@
       collection: YingletMaleCry
     Whistle:
       collection: YingletWhistles
+    Squeak:
+      path: /Audio/Animals/mouse_squeak.ogg
     Weh:
       collection: Weh
     Hew:
@@ -34,7 +36,7 @@
     DefaultDeathgasp:
       collection: DeathGasp
       params:
-        pitch: 1.6
+        pitch: 1.2
 
 - type: emoteSounds
   id: FemaleYinglet
@@ -62,6 +64,8 @@
       collection: YingletFemaleCry
     Whistle:
       collection: YingletWhistles
+    Squeak:
+      path: /Audio/Animals/mouse_squeak.ogg
     Weh:
       collection: Weh
     Hew:
@@ -71,7 +75,7 @@
     DefaultDeathgasp:
       collection: DeathGasp
       params:
-        pitch: 1.6
+        pitch: 1.2
 
 
 - type: soundCollection
