@@ -483,7 +483,7 @@ public sealed partial class GridConfigSystem : SharedGridConfigSystem
         _station.InitializeNewStation(config, null, args.StationName);
         if (idCard != null)
         {
-            _popupSystem.PopupEntity($"The station {args.StationName} was created.", idCard.Value);
+            _popupSystem.PopupEntity($"The faction {args.StationName} was created.", idCard.Value);
             _itemSlots.TryEjectToHands(idCard.Value, component.PrivilegedIdSlot, args.Actor);
         }
         TryQueueDel(uid);
