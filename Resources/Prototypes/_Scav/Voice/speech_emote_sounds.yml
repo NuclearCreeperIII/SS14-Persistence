@@ -13,8 +13,6 @@
       path: /Audio/_Scav/Voice/Yinglet/yinglet_male_sneeze_1.ogg
     Cough:
       collection: YingletMaleCoughs
-    Yawn:
-      path: /Audio/_Scav/Voice/Yinglet/yinglet_male_yawn_1.ogg
     Snore:
       collection: YingletSnores
     Honk:
