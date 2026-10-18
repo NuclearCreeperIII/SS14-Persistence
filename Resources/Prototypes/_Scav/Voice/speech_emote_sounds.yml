@@ -21,8 +21,10 @@
       collection: CluwneHorn
     Sigh:
       path: /Audio/_Scav/Voice/Yinglet/yinglet_male_sigh.ogg
+      pitch: 1.2
     Crying:
       collection: YingletMaleCry
+      pitch: 1.2
     Whistle:
       collection: YingletWhistles
     Squeak:
